@@ -1793,7 +1793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bf17968-6499-4944-ad86-257906e10b1e")
-		(property "Reference" "TP_MOSI1"
+		(property "Reference" "TP_MOSI"
 			(at 114.808 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1855,7 +1855,7 @@
 		(instances
 			(project "tv-b-gone"
 				(path "/23a371e7-c0c2-4fe5-805f-b61be48edc46"
-					(reference "TP_MOSI1")
+					(reference "TP_MOSI")
 					(unit 1)
 				)
 			)
@@ -2183,7 +2183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f56b534-9608-4634-aa01-f383a0f4705e")
-		(property "Reference" "TP_RES1"
+		(property "Reference" "TP_RESET"
 			(at 88.138 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2245,7 +2245,7 @@
 		(instances
 			(project "tv-b-gone"
 				(path "/23a371e7-c0c2-4fe5-805f-b61be48edc46"
-					(reference "TP_RES1")
+					(reference "TP_RESET")
 					(unit 1)
 				)
 			)
@@ -2433,7 +2433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aab0fabe-734a-49b5-a7c2-25771106e8fc")
-		(property "Reference" "TP_SCK1"
+		(property "Reference" "TP_SCK"
 			(at 116.586 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2495,7 +2495,7 @@
 		(instances
 			(project "tv-b-gone"
 				(path "/23a371e7-c0c2-4fe5-805f-b61be48edc46"
-					(reference "TP_SCK1")
+					(reference "TP_SCK")
 					(unit 1)
 				)
 			)
@@ -2937,7 +2937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6cf054f-0ed7-469d-abb8-4a7a216f8126")
-		(property "Reference" "TP_MISO1"
+		(property "Reference" "TP_MISO"
 			(at 116.078 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2999,7 +2999,7 @@
 		(instances
 			(project "tv-b-gone"
 				(path "/23a371e7-c0c2-4fe5-805f-b61be48edc46"
-					(reference "TP_MISO1")
+					(reference "TP_MISO")
 					(unit 1)
 				)
 			)
