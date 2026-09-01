@@ -661,7 +661,7 @@
         "uuid": "23a371e7-c0c2-4fe5-805f-b61be48edc46"
       }
     ],
-    "used_designators": "U1,#PWR1-5,TP_MOSI1,C1,R1,TP1,TP_RES1,TP_MISO1",
+    "used_designators": "U1,#PWR1-5,TP_MOSI1,C1,R1,TP1,TP_RES1,TP_MISO1,TP_SCK1,D1,Q1",
     "variants": []
   },
   "sheets": [
