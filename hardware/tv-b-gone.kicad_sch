@@ -2247,10 +2247,6 @@
 		(uuid "f9efc9d1-52d3-4def-a74a-d79e675b012b")
 	)
 	(no_connect
-		(at 90.17 62.23)
-		(uuid "3c14441e-170c-4fd9-9897-aa938f086673")
-	)
-	(no_connect
 		(at 90.17 64.77)
 		(uuid "8db4cc87-1b3e-4345-a1b1-98ae4d1170d1")
 	)
@@ -2556,6 +2552,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 62.23) (xy 113.03 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a21ac0e-2a76-4d45-8266-bac110bcfe9c")
+	)
+	(wire
+		(pts
 			(xy 102.87 59.69) (xy 90.17 59.69)
 		)
 		(stroke
@@ -2606,6 +2612,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 62.23) (xy 105.41 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2f5970-5401-4810-9022-78a0a3135936")
+	)
+	(wire
+		(pts
 			(xy 100.33 49.53) (xy 100.33 50.8)
 		)
 		(stroke
@@ -2613,6 +2629,16 @@
 			(type default)
 		)
 		(uuid "a20a3c53-469b-4d28-8052-acc3e89b1a7d")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22777d5-2757-419f-82cf-d57456b50856")
 	)
 	(wire
 		(pts
@@ -3037,6 +3063,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 100.33 62.23 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "202009fb-bda9-4b23-9158-2504a6523e65")
+		(property "Reference" "R7"
+			(at 100.33 66.294 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220r"
+			(at 100.33 64.516 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 100.33 64.008 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51068f31-38a9-4bd7-a86a-b57f737a9e7f")
+		)
+		(pin "2"
+			(uuid "f69b6e02-1cef-4fd0-9827-408a37a81a0a")
+		)
+		(instances
+			(project "tv-b-gone"
+				(path "/23a371e7-c0c2-4fe5-805f-b61be48edc46"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 179.07 81.28 0)
 		(unit 1)
@@ -3109,6 +3215,84 @@
 			(project "tv-b-gone"
 				(path "/23a371e7-c0c2-4fe5-805f-b61be48edc46"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a374237-ed16-45ba-8410-2259f7efadca")
+		(property "Reference" "#PWR012"
+			(at 120.65 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "565955b8-ffdd-48e6-b6c7-ac20a1eeefe5")
+		)
+		(instances
+			(project "tv-b-gone"
+				(path "/23a371e7-c0c2-4fe5-805f-b61be48edc46"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4310,6 +4494,96 @@
 			(project "tv-b-gone"
 				(path "/23a371e7-c0c2-4fe5-805f-b61be48edc46"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 109.22 62.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cffb83fd-2542-4513-bc44-13bd4fa6f2b5")
+		(property "Reference" "D2"
+			(at 112.268 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 108.966 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 109.22 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 109.22 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17386259-74e3-4d79-b82e-0d2e3a486f73")
+		)
+		(pin "2"
+			(uuid "d1dcb678-d6f5-4e1b-bae2-d0b93d7f24a1")
+		)
+		(instances
+			(project "tv-b-gone"
+				(path "/23a371e7-c0c2-4fe5-805f-b61be48edc46"
+					(reference "D2")
 					(unit 1)
 				)
 			)
