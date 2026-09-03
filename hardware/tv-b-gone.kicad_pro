@@ -669,7 +669,7 @@
         "uuid": "23a371e7-c0c2-4fe5-805f-b61be48edc46"
       }
     ],
-    "used_designators": "U1,#PWR1-14,TP_MOSI1-2,C1,#FLG1-2,R1-7,TP1,TP_RES1,TP_MISO1,TP_SCK1,D1-2,Q1,TP_RESET1,SW1,P1,J1,TP_GND2",
+    "used_designators": "U1,#PWR1-15,TP_MOSI1-2,C1,#FLG1-2,R1-7,TP1,TP_RES1,TP_MISO1,TP_SCK1,D1-2,Q1,TP_RESET1,SW1,P1,J1,TP_GND2",
     "variants": []
   },
   "sheets": [
