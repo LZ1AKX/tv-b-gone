@@ -2272,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 35.56) (xy 74.93 40.64)
+			(xy 74.93 30.48) (xy 74.93 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2801,7 +2801,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 74.93 35.56 0)
+		(at 74.93 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2811,7 +2811,7 @@
 		(dnp no)
 		(uuid "11c56731-f903-49ab-80b5-960bb0877761")
 		(property "Reference" "#PWR03"
-			(at 74.93 39.37 0)
+			(at 74.93 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2822,7 +2822,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 74.676 32.004 0)
+			(at 74.676 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2832,7 +2832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 35.56 0)
+			(at 74.93 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2843,7 +2843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 35.56 0)
+			(at 74.93 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2854,7 +2854,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 74.93 35.56 0)
+			(at 74.93 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4978,7 +4978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
 			(at 186.69 55.88 0)
 			(hide yes)
 			(show_name no)
